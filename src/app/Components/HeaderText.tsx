@@ -4,9 +4,11 @@ import styles from './styles/Header.module.css';
 
 export const HeaderText = () => {
     return (
+        <div className={styles.body} id={styles.linha}>
         <header className={styles.text}>
             <h1>Atividade de React</h1>
         </header>
+    </div>
     )
     
 }
