@@ -1,7 +1,7 @@
-body {
+.body {
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Garante altura mínima para ocupar a tela toda */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -9,11 +9,21 @@ body {
 .footer {
     position: fixed;
     bottom: 0;
-    left: 0; /* Garante que o footer comece do lado esquerdo */
-    width: 100%; /* Ocupa 100% da largura */
-    background-color: #333;
+    left: 0;
+    width: 100%;
     color: white;
     text-align: center;
     padding: 10px;
     border-top: 2px solid #fff;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.link {
+    color: rgb(33, 5, 56);
+    text-decoration: none;
 }

@@ -8,7 +8,7 @@ import { HeaderText } from "./Components/HeaderText";
 export default function Home() {
   return (
     <>
-    <div className={styles.container}> {/* Aplicando a classe */}
+    <div className={styles.container}>
       <HeaderText />
 
       <ButtonTest />
